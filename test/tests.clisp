@@ -5,7 +5,12 @@
 (load "./src/tictactoe.clisp")
 
 (test initially-status-is-x-to-play
-    (is (eql 'x-to-play (game-status (initial-game)))))
+    (is (eql 'x-to-play 
+         (game-status (initial-game)))))
+
+(test after-one-move-status-is-o-to-play
+    (is (eql 'o-to-play
+        (game-status (move (initial-game) 1 1)))))
 
 (run!)
 

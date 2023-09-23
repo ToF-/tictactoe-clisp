@@ -3,3 +3,6 @@
 
 (defun game-status (game)
     game)
+
+(defun move (game row col)
+    'o-to-play)
