@@ -12,5 +12,9 @@
     (let ((game (move (initial-game) 1 1)))
      (is (eql 'o-to-play (game-status game)))))
 
+(test after-two-moves-status-is-x-to-play
+    (let ((game (move (move (initial-game) 1 1) 2 1)))
+     (is (eql 'x-to-play (game-status game)))))
+
 (run!)
 

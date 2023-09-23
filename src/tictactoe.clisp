@@ -5,4 +5,6 @@
     game)
 
 (defun move (game row col)
-    'o-to-play)
+    (if (eql 'x-to-play game)
+        'o-to-play
+        'x-to-play))
