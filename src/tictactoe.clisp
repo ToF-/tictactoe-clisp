@@ -1,0 +1,5 @@
+(defun initial-game ()
+    'x-to-play)
+
+(defun game-status (game)
+    game)

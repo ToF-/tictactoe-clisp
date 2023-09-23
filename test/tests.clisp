@@ -1,9 +1,11 @@
 (ql:quickload "fiveam")
 (in-package :fiveam)
-(def-suite* my-suite)
+(def-suite* tictactoe-status)
 
-(test my-test
-    (is (= 2 (+ 1 1))))
+(load "./src/tictactoe.clisp")
+
+(test initially-status-is-x-to-play
+    (is (eql 'x-to-play (game-status (initial-game)))))
 
 (run!)
 
