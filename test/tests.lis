@@ -1,0 +1,15 @@
+Listing of compilation of file /Users/christophethibaut/Coding/tictactoe-clisp/test/tests.clisp
+on 2023-09-23 12:30:36 by CLISP, version 2.49.92 (2018-02-18) (built on bigsur [192.168.122.2])
+;; Compiling file /Users/christophethibaut/Coding/tictactoe-clisp/test/tests.clisp ...
+
+Disassembly of function #:|1 1 (QUICKLISP-CLIENT:QUICKLOAD "fiveam")-1|
+(CONST 0) = "fiveam"
+(CONST 1) = QUICKLISP-CLIENT:QUICKLOAD
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+3 byte-code instructions:
+0     (CONST&PUSH 0)                      ; "fiveam"
+1     (CALL1 1)                           ; QUICKLISP-CLIENT:QUICKLOAD
+3     (SKIP&RET 1)

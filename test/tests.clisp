@@ -1,0 +1,9 @@
+(ql:quickload "fiveam")
+(in-package :fiveam)
+(def-suite* my-suite)
+
+(test my-test
+    (is (= 2 (+ 1 1))))
+
+(run!)
+
