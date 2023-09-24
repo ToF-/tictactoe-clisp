@@ -2,7 +2,7 @@
     (in-package :fiveam)
 (def-suite* tictactoe-status)
 
-    (load "./src/tictactoe.clisp")
+    (load "./src/tictactoe.lisp")
 
     (test initially-status-is-x-to-play
      (is (eql 'x-to-play
